@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 8rem;
+    height: 2rem;
+    background-color: aqua;
+    color: aliceblue;
+    border-radius: 3rem;
+}
+nav{
+    gap: 1rem;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+}
+a:hover{
+    background-color: chartreuse;
+    color: black;
+    height:  3rem;
+    width: 8.5rem;
+}
+.fondo{
+    background-image: url(../img/Slider.jpg) ;
+    background-size: 100%;
+}
+section{
+    display: block;
+    height: 878px;
+    background-repeat: no-repeat;
+}
